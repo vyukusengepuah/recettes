@@ -1,0 +1,73 @@
+# ============================================
+# CONFIGURATION LOCALE (SECRETS)
+# ============================================
+# Ne jamais versionner les mots de passe
+config/mysql.php
+.env
+.env.local
+*.env
+
+# ============================================
+# FICHIERS UPLOADÉS PAR LES UTILISATEURS
+# ============================================
+# Les images uploadées par les utilisateurs
+uploads/*
+!uploads/.gitkeep
+
+# ============================================
+# LOGS ET CACHE
+# ============================================
+*.log
+logs/
+cache/
+tmp/
+
+# ============================================
+# IDE / ÉDITEURS
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ============================================
+# SYSTÈME D'EXPLOITATION
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# DÉPENDANCES (si tu utilises Composer)
+# ============================================
+/vendor/
+composer.lock
+
+# ============================================
+# NODE.JS (si tu utilises npm)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# DIVERS
+# ============================================
+*.bak
+*.old
+*.orig
+*.tmp
